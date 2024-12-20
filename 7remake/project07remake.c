@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//求各种硬币的数量
 int main()
 { int n;
 int i,j,k,l=1;

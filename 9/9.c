@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//打印菱形
 int main() {
      char a;
      int b,i,j,k;

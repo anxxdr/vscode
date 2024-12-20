@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//求一个数的π值
 double js(double i);
 double qs(double i);
 int main()

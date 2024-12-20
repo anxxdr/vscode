@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//求分数和
 int main()
 {
   int a1,b1,a2,b2,i,p,c2,c1;
