@@ -21,10 +21,6 @@ for(i=1;i<=b/2+1;i++)
         }   
          printf("%c",a);
     }
-     for(j=1;j<=b/2-i+1;j++)
-    {
-        printf(" ");
-    }
     printf("\n");
     a++;
     }
@@ -45,10 +41,6 @@ for(i=1;i<=b/2+1;i++)
             printf(" ");
         }   
          printf("%c",a);
-    }
-     for(j=1;j<=b/2-i+1;j++)
-    {
-        printf(" ");
     }
     printf("\n");
     a--;
