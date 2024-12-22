@@ -1,0 +1,15 @@
+#include<stdio.h> 
+int main()
+{
+    char a[100];
+    int i = 0, j;
+    printf("请输入一串字符，以回车结束：");
+    while ((a[i] = getchar()) != '\n')
+    {
+        i++;
+    }
+    a[i] = '\0'; 
+    for (j = i - 1; j >= 0; j--)
+        printf("%c ", a[j]);
+    return 0;
+}
