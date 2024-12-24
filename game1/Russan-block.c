@@ -514,5 +514,4 @@ void WriteGrade()
 	fwrite(&grade, sizeof(int), 1, pf); //将本局游戏得分写入文件当中（更新最高历史得分）
 	fclose(pf); //关闭文件
 	pf = NULL; //文件指针及时置空
-}
-                 
+}                
